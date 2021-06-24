@@ -3,11 +3,15 @@
     height: 200px;
     position: relative;
     background-color: darkorange;
-    animation-name: changeBackgroundColor;
-    animation-duration: 4s;
+    animation-name: changeBackgroundColor; /*Animation Name*/
+    animation-duration: 4s;                /*Animation time*/
+    animation-delay: 1s;                   /*Animation nece san sonra baslayacaq onu teyin edir*/
+    animation-iteration-count: 4;          /*Animation nece defe tekrarlanacaq onu teyin edir. ---infinitive- (Sonsuz tekrari bildirir)*/
+    animation-direction: alternate;        /*Animation 1 duz  1 ters 1 duz 1 ters tekrar edir*/
+    
 }
 
-@keyframes changeBackgroundColor {
+@keyframes changeBackgroundColor {          /*Animation Keyframes*/
     0% {background-color: darkorange; left: 0; top: 0px;}
     25% {background-color: royalblue; left: 400px; top: 0px;}
     50% {background-color: green; left: 400px; top: 400px;}
