@@ -8,6 +8,7 @@
 
 .box1,.box2,.box3 {
     position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 200px;
     height: 200px;
 }
