@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Card</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
         h1 {
             text-align: center;
         }
@@ -30,8 +26,9 @@
             height: 300px;
             perspective: 1000px;
             margin: 20px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            
+           
         }
 
         .flip-card-inner {
@@ -41,7 +38,8 @@
             text-align: center;
             transition: transform 0.6s;
             transform-style: preserve-3d;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+            
         }
 
         .flip-card:hover .flip-card-inner {
