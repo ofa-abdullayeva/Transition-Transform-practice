@@ -1,0 +1,28 @@
+.boxes{
+    position: relative;
+    margin-top: 300px;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg) 
+    rotateY(-40deg) perspective(1000px);
+}
+
+.box1,.box2,.box3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.box1{
+    background-color: blueviolet;
+    transform: translateZ(0px);
+}
+
+
+
+.box2 {
+    background-color: crimson;
+    transform: translateZ(-100px);
+}
+.box3{
+    background-color: chartreuse;
+    transform: translateZ(-200px);
+}
